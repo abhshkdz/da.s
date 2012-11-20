@@ -1,5 +1,5 @@
 <?php
-  include('config.php');
+  include('config/config.php');
   class Urls {
     private static $_connection;
     private $userIP;
