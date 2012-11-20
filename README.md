@@ -13,6 +13,8 @@
 
 * Set up the db from `schema/structure.sql`.
 * Copy over `config.example.php` to `config.php`, and update DB connection details and root domain.
+* Add virtual host entry by copying `da.s` to `/etc/apache2/sites-available/`, edit it to your liking and link it to `/etc/apache2/sites-enabled/`. Also, add a line in `/etc/hosts`
+* Restart apache and everything should be fine.
 
 ###Todo
 
